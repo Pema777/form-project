@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form action=".php">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name"><br>
+
+    <label for="Email">Email:</label><br>
+    <input type="email" id="Email"><br>
+
+    <label for="Phone">Phone:</label><br>
+    <input type="tel" id="Phone" ><br>
+
+    <label for="Resume">Resume</label><br><br>
+    <input type="file" id="Resume"><br>
+
+    <label for="Experience">Experience(year):</label><br>
+    <input type="number" id="Experience" style="width: 30px;"><br><br>
+
+    <fieldset>
+        <legend>Skills</legend>
+        <!-- <label for="skills">HTML</label> -->
+        <!-- <select name="skill" id="skills">
+
+          <option value="html"  >HTML</option>
+          <option value="CSS" >CSS</option>
+          <option value="JS" >JS</option>
+        </select> -->
+        <input type="checkbox"name="checkbox" id="checkbox"><br>
+        <label for="checkbox" >HTML</label><br>
+        <input type="checkbox"name="checkbox" id="checkbox2"><br>
+        <label for="checkbox2" >CSS</label><br>
+        <input type="checkbox"name="checkbox" id="checkbox3"><br>
+        <label for="checkbox3" >JS</label><br>
+    </fieldset><br>
+
+    <label for="HigherEducation">HigherEducation:</label><br><br>
+    <select name="HigherEducation" id="HigherEducation">
+        <option value="high School">High School</option>
+        <option value="Basic">Basic</option>
+        <option value="Lower School">Lower School</option>
+    </select><br>
+    <label for="Availability">Availability</label><br>
+    <input type="radio" id="Availability" name="fulltime" ><br>
+    <label for="Availability">Full-time</label><br>
+    <input type="radio" id="Availability" name="fulltime" ><br>
+    <label for="Availability">Part-time</label><br><br>
+    <label for="Comment">Additional Comment</label><br>
+    <textarea name="comment" id="Comment" cols="30" rows="10">hehe</textarea><br>
+
+    <input type="submit" value="submit">
+
+</form>
+</body>
+</html>
